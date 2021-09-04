@@ -1,0 +1,563 @@
+@import '~antd/dist/antd.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+.landing-page .ant-layout-header {
+    background: #ffffff !important;
+}
+
+.landing-page .ant-layout {
+    background: #ffffff !important;
+
+}
+
+.eKGJdd {
+    color: rgb(79, 71, 71);
+    display: block;
+    text-align: center;
+}
+.eKGJdd p {
+    font-size: 25px;
+}
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+    font-size: 18px;
+}
+
+
+.header {
+    color:black;
+    font-weight: bold;
+    max-width: 50%;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.eKGJdd p {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 0.8rem;
+}
+.eKGJdd svg {
+    display: inline-block;
+    margin-bottom: -0.25rem;
+    margin-right: 0.3125rem;
+    max-width: 1em;
+}
+
+.blockPhone {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    margin: 10px;
+    min-height: 350px;
+}
+
+
+.iIpwqV a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container3 {
+	background: url('./Assets/hand.png');
+	background-size:cover;
+    background-position: center top;
+	background-repeat: no-repeat;
+    min-height: 60vh;	
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 15px;
+
+}
+.text {
+    margin: 0 auto;
+    position: relative;
+    max-width: 80%;
+    text-align: center;
+    padding-top: 15px;
+}
+.lPHeading {
+    color: black;
+    font-size: 32px;
+}
+
+.pText {
+    color: black;
+    font-size: 18px;
+}
+
+.inputField {
+background-color: rgba(255, 255, 255, 0.9);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034)
+}
+
+.input {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+.inputArea {
+    height: 50px;
+    width: 80%;
+    border-color: #488BFF;
+    border-radius: 5px;
+
+}
+
+.button {
+    height: 60px;
+    background-color: #488BFF;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 18px;
+
+
+}
+
+
+
+
+@media screen and (max-width: 645px){
+
+    .lPHeading {
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .pText {
+        font-size: 14px;
+    }
+    .container3 {
+        background: url('./Assets/hand.png');
+	background-size:cover;
+    background-position: center left;
+	background-repeat: no-repeat;
+    min-height: 60vh;	
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    
+    }
+
+    .text {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .header {
+        font-size: 28px;
+        text-align: center;
+        color:white;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+        max-width: 80%;
+        
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    
+    .inputField {
+    
+        display:inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        max-width: 80%;
+        border-radius: 10px;
+        box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+    
+}
+
+.logosTop {
+    width: 100%
+    ;
+    display: block;
+
+}
+
+.h3 {
+    font-size: small;
+    color: #fff;
+}
+.landing-page .section-one {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    min-height: 60vh;
+    margin: auto;
+    padding: 75px 5% 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: url('Assets/hero-wave.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing-page .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.landing-page button {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 750px) {
+    .landing-page .pic {
+        display: none;
+    }
+}
+
+.landing-page .block-left-hero {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.landing-page .hero_heading {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 10px 0 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.landing-page .text-white {
+    color: #ffffff;
+}
+
+.landing-page .para-white {
+    max-width: 510px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    line-height: 28px;
+}
+.landing-page .text-blue {
+    color: #6165FF;
+}
+
+.landing-page .block-right-hero {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.landing-page .image-109 {
+    max-width: 100%;
+    vertical-align: middle;
+    display: block;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.landing-page .btn-large {
+    width: 15rem;
+    border-radius: 0.4rem;
+    height: 3rem;
+    font-weight: 600;
+}
+
+.landing-page .footer {
+    min-height: auto;
+    background-color: #6165ff;
+}
+
+.landing-page .footer-container {
+    display: block;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.landing-page  .footer-top-wrap-2 {
+    display: flex;
+    padding-bottom: 35px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+}
+
+.landing-page  .heading-16 {
+    display: block;
+    max-width: 480px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.landing-page .div-block-58 {
+
+    padding-top: 10px;
+}
+
+.landing-page .section-two {
+    margin: 5px;
+}
+
+.landing-page .section-two-imgs {
+    margin: 0 auto;
+}
+
+.logoSize {
+    max-width: 150px;
+    align: center;
+}
+
+.landing-page .section-two-container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column {
+    text-align: center;
+
+}
+
+
+.logosTop {
+    width: 100%;
+    display: block;
+
+}
+@media (min-width: 576px) {  
+	.logosTop{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) { 
+	.logosTop{
+		width: 100%;
+	}
+ }
+@media (min-width: 992px) { 
+	.logosTop{
+		width: 100%;
+	}
+ }
+
+.landing-page .cl01_title {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #8a94a6;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.landing-page .section-two-img-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.speak {
+    font-size: 25px;
+}
+
+.gtm-identifier-phone {
+    font-size: 25px;
+}
+
+.ant-card-meta-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ant-card-meta-description {
+    font-size: 18px;
+}
+
+.landing-page .section-two-imgs {
+    padding: 15px;
+}
+
+.landing-page .ml-1 {
+    margin-top: 1rem;
+}
+
+.landing-page .service-main-image.business {
+    background-image: url("./Assets/hand.png");
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.landing-page .service-main-image {
+    min-height: 25rem;
+    margin-right: 0;
+    margin-left: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing-page .bg-blue {
+    background-color: #5b56e0 !important;
+}
+
+.landing-page .list-item-2 {
+    display: flex;
+    align-items: center;
+    /*background-image: url();*/
+    background-position: 0 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 400;
+}
+
+.landing-page .h6-heading.list {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 0;
+    align-items: center;
+    background-color: #fff;
+    color: #898ab1;
+    text-align: left;
+}
+
+
+.landing-page ul {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.landing-page li {
+    padding: .3em 0 1em 40px;
+    background-image: url("https://assets.website-files.com/5e2b3fe9d3ee94499c5186d1/5e2b3fe9d3ee94239951871f_icon-checkmark.svg");
+    background-repeat: no-repeat;
+}
+
+.landing-page .trusted-companies {
+    background-color: white;
+}
+
+.landing-page .custom-rounded {
+    border-radius: 25px;
+}
+
+.landing-page .section-connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Assets/bottom_base_wave.svg');
+    background-position: 50% 101%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.landing-page .text-co2 {
+    color: #767ead;
+    font-size: 1rem;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.landing-page .quote {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: .3;
+}
+
+.landing-page .quote-text-v1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #a2a9b4;
+}
+
+.landing-page .italic-text-4 {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.landing-page .ant-collapse {
+    border: none !important;
+    background-color: #ffffff;
+}
+.landing-page .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    line-height: 2.5715 !important;
+    font-size: 1.1rem;
+}

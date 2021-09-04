@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+body {
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: "Montserrat", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chooseButton {
+	height: 50px;
+	margin: 25px;
+	background-color: #488BFF;
+	color: white;
+	border-radius: 10px;
+
+
+	
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
-.App-link {
-  color: #61dafb;
+.numInput {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+	width: 150px;
 }
+
+
+.blogo{
+	width: 50%;
+}
+
+
+
+@media (min-width: 576px) {  
+	.blogo{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) { 
+	.blogo{
+		width: 100%;
+	}
+ }
+@media (min-width: 992px) { 
+	.blogo{
+		width: 50%;
+	}
+ }
+
+
+.right-number {
+
+	float: right;
+	padding: 10px;
+	font-size: large;
+	color: #04151f;
+	font-weight: bold;
+
+}
+
+option:hover {
+	background: #cacaca;
+}
+
+.pbar {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.card .shadow-lg {
+
+	border-radius: 25px;
+}
+
+.-xl-flex .d-sm-flex{
+	min-height: 50vh;
+}
+
+.tcpa {
+	font-weight: normal;
+	max-width: 100%;
+}
+
+
+.more {
+	border-radius: 20px;
+	background-color: white;
+	min-height: 700px;
+	position: relative;
+	min-width: 300px;
+	-webkit-box-shadow: 0px 47px 72px 3px rgba(128,128,128,0.11);
+	-moz-box-shadow: 0px 47px 72px 3px rgba(128,128,128,0.11);
+	box-shadow: 0px 47px 72px 3px rgba(128,128,128,0.11);
+}
+
+.anticon{
+	vertical-align: 0px !important;
+}
+
+@media (min-width: 576px) {  
+	.mywidth{
+		width: 100%;
+	}
+
+	.logo {
+		width: 100px;
+	}
+}
+@media (min-width: 768px) { 
+	.mywidth{
+		width: 100%;
+	}
+	.logo {
+		width: 95px;
+	}
+ }
+@media (min-width: 992px) { 
+	.mywidth{
+		width: 75%;
+	}
+ }
+@media (min-width: 1200px) {
+	.mywidth{
+		width: 60%;
+	}
+	.text{
+		width: 100% !important;
+	}
+ }
+ 
