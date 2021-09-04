@@ -14,16 +14,20 @@ a {
 }
 
 .chooseButton {
-	height: 50px;
+	min-height: 75px;
+	min-width: 130px;
 	margin: 25px;
 	background-color: #488BFF;
 	color: white;
 	border-radius: 10px;
-
-
-	
+	font-size: 20px;
 }
 
+
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
 input[type=date]::-webkit-inner-spin-button, 
 input[type=date]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 

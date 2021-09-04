@@ -4,6 +4,8 @@ import CommonComponents from "./CommonComponents";
 import {Link,withRouter} from "react-router-dom"; 
 import { ArrowLeftOutlined } from '@ant-design/icons';
 
+import '../App.css'
+
 class Plan extends Component {
 
     onFinish = (values) => {

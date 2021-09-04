@@ -56,7 +56,7 @@ class Weight extends Component {
               }}
               onFinishFailed={this.onFinishFailed}
             >
-              <h3>Do any applicants weigh over 325 lbs if male, or over 275 lbs if female?</h3>
+              <h3>Do any Applicants weigh over 325 lbs if male, or over 275 lbs if female?</h3>
               <br />
               <Form.Item
                 name="gender"

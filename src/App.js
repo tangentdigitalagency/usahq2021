@@ -55,7 +55,7 @@ class App extends Component {
 			last_name: '',
 			email_address: '',
 			phone_home: '',
-			health_insurance_plan: '',
+			health_insurance_plan: 'ACA Plan',
 			coverage_time: '',
 			household_income: '',
 			tobacco_use: '',
@@ -161,7 +161,7 @@ class App extends Component {
 					<div className='row'>
 						<div className='col'>
 							<Switch>
-								<Route exact path='/step1'>
+								{/* <Route exact path='/step1'>
 									<Plan
 										props={this.props}
 
@@ -176,7 +176,7 @@ class App extends Component {
 											});
 										}}
 									/>
-								</Route>
+								</Route> */}
 
 								<Route exact path='/step2'>
 									<TimeCoverage
@@ -185,6 +185,8 @@ class App extends Component {
 											this.setState({
 												postData: {
 													...this.state.postData,
+													jornaya_lead_id: document.getElementById('leadid_token').value, 
+													trusted_form_cert_id: document.getElementById('trusted_form_cert_id_0').value ,
 													coverage_time: v,
 												},
 											});

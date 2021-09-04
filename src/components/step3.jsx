@@ -68,13 +68,20 @@ class Income extends Component {
                   }
                 ]}
               >
-                 <Button size="large" name="household_income" className="chooseButton" id="50000" data-value="50000" value={"50000"} onClick={(values) => this.onFinish(values)}>$47,000+</Button>
+                 <Button size="large" name="household_income" className="chooseButton" id="100001" data-value="100001" value={"100001"} onClick={(values) => this.onFinish(values)}>$100,001+</Button>
 
-                 <Button size="large" name="household_income" className="chooseButton" id="47000" data-value="47000" value={"47000"} onClick={(values) => this.onFinish(values)}>$30,000 - $47,000</Button>
+                 <Button size="large" name="household_income" className="chooseButton" id="75000" data-value="75000" value={"75000"} onClick={(values) => this.onFinish(values)}>$75,000 - $100,000+</Button>
 
-                 <Button size="large" name="household_income" className="chooseButton" id="30000" data-value="30000" value={"30000"} onClick={(values) => this.onFinish(values)}>$16,000 - $30,000</Button>
+                 <Button size="large" name="household_income" className="chooseButton" id="55000" data-value="55000" value={"55000"} onClick={(values) => this.onFinish(values)}>$55,000 - $70,000</Button>
 
-                 <Button size="large" name="household_income" className="chooseButton" id="16000" data-value="16000" value={"16000"} onClick={(values) => this.onFinish(values)}>$0 - $16,000</Button>
+                 <Button size="large" name="household_income" className="chooseButton" id="30000" data-value="30000" value={"30000"} onClick={(values) => this.onFinish(values)}>$30,000 - $54,000</Button>
+
+                 <Button size="large" name="household_income" className="chooseButton" id="10000" data-value="10000" value={"10000"} onClick={(values) => this.onFinish(values)}>$10,000 - $29,000</Button>
+
+                 <Button size="large" name="household_income" className="chooseButton" id="0" data-value="0" value={"0"} onClick={(values) => this.onFinish(values)}>$0 - $10,000</Button>
+
+
+
 
               </Form.Item>
             
