@@ -12,8 +12,7 @@ class AddUser extends Component {
 
         console.log(values.currentTarget.dataset.value);
 
-        this.props.addSomeone(values.currentTarget.dataset.value);
-        
+        this.props.addSomeone(values.currentTarget.dataset.value);      
         console.log("Success: ", user)
 
         this.props.history.push("/step8")
@@ -43,8 +42,7 @@ class AddUser extends Component {
 						</Button>
 					</Link>
 				</div>
-        
-
+      
 				<div className='d-flex' style={{ minHeight: '50vh' }}>
 					<div className='card-body d-xl-flex justify-content-center align-items-center' align='center'>
 					<Form
@@ -68,9 +66,9 @@ class AddUser extends Component {
                   }
                 ]}
               >
-                 <Button size="large" name="additional_insured" className="chooseButton" id="yes" data-value={true} value={"yes"} onClick={(values) => this.onFinish(values)}>Yes</Button>
+<Button size="large" name="additional_insured" className="chooseButton" id="yes" data-value={true} value={"yes"} onClick={(values) => this.onFinish(values)}>Yes</Button>
 
-                 <Button size="large" name="additional_insured" className="chooseButton" id="No" data-value={false} value={"No"} onClick={(values) => this.onFinish(values)}>No</Button>
+<Button size="large" name="additional_insured" className="chooseButton" id="No" data-value={false} value={"No"} onClick={(values) => this.onFinish(values)}>No</Button>
 
 
               </Form.Item>

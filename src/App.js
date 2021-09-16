@@ -9,6 +9,8 @@ import Grid from '@material-ui/core/Grid';
 import { Button, Typography, Progress, Row, Col } from 'antd';
 import { PhoneOutlined } from '@ant-design/icons';
 
+import PhonexaCode from './Phoenexa';
+
 import Plan from './components/step1';
 import TimeCoverage from './components/step2.jsx';
 import Income from './components/step3.jsx';
@@ -140,18 +142,9 @@ class App extends Component {
 						/>
 						<ul className='nav nav-fill'>
 							<li className='nav-item'>
-								<Button
-									type='primary'
-									size='middle'
-									icon={
-										<PhoneOutlined
-											// @ts-ignore
-											rotate='90'
-										/>
-									}
-									href={'tel:+18885671448'}>
-									888-567-1448
-								</Button>
+
+							<PhonexaCode />
+
 							</li>
 						</ul>
 					</div>

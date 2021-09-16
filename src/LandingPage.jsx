@@ -4,6 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import logo from './Assets/usahq.png';
 import { PhoneOutlined } from '@ant-design/icons';
 
+import PhonexaCode from './Phoenexa';
+
 import best from './Assets/best.png';
 import budget from './Assets/budget.png';
 import { ReactComponent as YourSvg } from './Assets/svg_2.svg';
@@ -41,19 +43,7 @@ function LandingPage(props) {
 							</a>
 						</Col>
 						<Col xs={{ span: 12 }} lg={{ span: 12 }} className='text-right'>
-						<Button
-									type='primary'
-									size='middle'
-									icon={
-										<PhoneOutlined
-											// @ts-ignore
-											rotate='90'
-										/>
-									}
-									href={'tel:+18885671448'}>
-									888-567-1448 
-								</Button>
-								TTY: 711 
+						<PhonexaCode />
 						</Col>
 					</Row>
 				</Header>
