@@ -11,7 +11,7 @@ class PhonexaCode extends React.Component {
         const script = document.createElement("script");
 
         script.src = "https://cdn101.qhportal.com/pw/render.php?p=E5D89F961D8C4157AF4C301E0B43A877&e=1";
-
+        script.async = true;
         document.body.appendChild(script);
 
     }
