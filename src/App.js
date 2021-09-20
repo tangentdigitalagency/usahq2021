@@ -143,7 +143,10 @@ class App extends Component {
 						<ul className='nav nav-fill'>
 							<li className='nav-item'>
 
-							<PhonexaCode />
+							<Button>
+								<a href="tel:8887013066"> 888-701-3066</a>	 
+
+						</Button>
 
 							</li>
 						</ul>

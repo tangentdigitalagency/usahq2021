@@ -42,8 +42,11 @@ function LandingPage(props) {
 								<img src={logo} width='181' alt='logo' />
 							</a>
 						</Col>
-						<Col xs={{ span: 12 }} lg={{ span: 12 }} className='text-right'>
-						<PhonexaCode />
+						<Col>
+						<Button>
+								<a href="tel:8887013066"> 888-701-3066</a>	 
+
+						</Button>
 						</Col>
 					</Row>
 				</Header>
